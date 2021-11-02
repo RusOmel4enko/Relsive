@@ -1,0 +1,61 @@
+.advices__title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin: 0;
+}
+
+.advices__text {
+  color: #737373;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  line-height: 1.42;
+  font-weight: 500;
+  margin: 15px 0px 30px 0px;
+}
+
+.advices__body {
+  display: flex;
+  margin: 0px -20px -30px;
+  flex-wrap: wrap;
+}
+
+.advices__column {
+  padding: 0px 20px;
+  margin: 0px 0px 30px 0px;
+  flex: 0 1 25%;
+
+  @media screen and (max-width: 1040px) {
+    flex: 0 1 50%;
+  }
+
+  @media screen and (max-width: 630px) {
+    flex: 0 1 100%;
+  }
+}
+
+.advices__header {
+  margin-bottom: 45px;
+}
+
+.advices__item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.advices__shell {
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+.advices__img {
+  padding: 0px 0px 60% 0px;
+  display: block;
+}
+
+.main__advices {
+  padding: 80px 0px 80px;
+}

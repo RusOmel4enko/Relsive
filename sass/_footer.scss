@@ -1,0 +1,132 @@
+.footer__top {
+  background: #17213c;
+  padding: 40px 0px;
+}
+
+.footer__column:last-child {
+  flex: 0 1 33.334%;
+}
+
+.footer__column {
+  flex: 0 1 16.6667%;
+  padding: 20px 15px;
+  min-width: 160px;
+
+  @media screen and(max-width: 992px) {
+    flex: 0 1 25%;
+
+    &:last-child {
+      flex: 1 1 100%;
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and(max-width: 767px) {
+    flex: 0 1 50%;
+  }
+}
+
+.footer__title {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.menu-footer__link {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+.menu-footer__link:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.footer__row {
+  display: flex;
+  margin: 0px -15px;
+  flex-wrap: wrap;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-footer__item:not(:last-child) {
+  margin: 0px 0px 12px 0px;
+}
+
+.contacts-footer__item_phone {
+  background: url('../img/footer/telephone.svg') left no-repeat;
+}
+
+.contacts-footer__item_map {
+  background: url('../img/footer/telegram.svg') left no-repeat;
+}
+
+.contacts-footer__item_email {
+  background: url('../img/footer/geolocation.svg') left no-repeat;
+}
+
+.contacts-footer__item {
+  padding: 0px 0px 0px 34px;
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+  color: #fff;
+  line-height: 1.42;
+}
+
+.menu-footer__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.footer__bottom {
+  padding: 25px 0px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and(max-width: 767px) {
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__text {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.footer__text {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.social__item {
+  display: inline-flex;
+  align-items: center;
+}

@@ -1,0 +1,50 @@
+.contact__content {
+  padding: 0px 0px 20px 0px;
+}
+
+.contact {
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 767px) {
+  .contact__content {
+    padding: 0px 20px 0px 0px;
+  }
+  .contact__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+  }
+}
+
+.contact__title {
+  font-size: 24px;
+  line-height: 1.333;
+  color: #252b42;
+  letter-spacing: 0.1px;
+  margin: 0px 0px 10px 0px;
+}
+
+.contact__text {
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  color: #737373;
+}
+
+.contact__button {
+  display: flex;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.2px;
+  font-weight: 700;
+  padding: 15px 40px;
+  background: #ff7b47;
+  border-radius: 5px;
+  min-height: 58px;
+  align-items: center;
+  justify-content: center;
+}
